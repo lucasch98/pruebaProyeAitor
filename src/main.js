@@ -6,6 +6,7 @@ import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import router from './router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import './registerServiceWorker'
 Vue.use(VueAxios, axios)
 
 Vue.config.productionTip = false
